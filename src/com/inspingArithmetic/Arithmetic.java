@@ -122,8 +122,186 @@ public class Arithmetic {
         // 59. 螺旋矩阵 II
 //        System.out.println(c.generateMatrix(3));
         // 4. 寻找两个有序数组的中位数
-        System.out.println(c.findMedianSortedArrays(new int[]{1, 2}, new int[]{3,4}));
+//        System.out.println(c.findMedianSortedArrays(new int[]{1, 2}, new int[]{3,4}));
+        // ************************************************************************************************ 2019.10.22   230,89,238,148
+        // 230. 二叉搜索树中第K小的元素
+        // 89. 格雷编码
+        // 238. 除自身以外数组的乘积
+//        System.out.println(c.productExceptSelf(new int[]{0, 2, 3, 4}));
+        // 148. 排序链表
+        // 23. 合并K个排序链表
+        // 8. 字符串转换整数 (atoi)
+        System.out.println(c.myAtoi("   -42"));
     }
+
+    // 8. 字符串转换整数 (atoi)
+    public int myAtoi(String str) {
+        if (str == null) return 0;
+        str = str.trim();
+        if (str.length() < 1) return 0;
+        int ans = 0;
+        boolean isNegative = false;
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch == '-') {
+                isNegative = true;
+                continue;
+            }
+            if (ch < '0' || ch > '9') {
+                return ans;
+            } else {
+                ans = ans * 10 + Integer.valueOf(String.valueOf(ch));
+            }
+        }
+        return ans;
+    }
+
+    // 23. 合并K个排序链表(归并)
+    public ListNode mergeKLists2(ListNode[] lists) {
+        if (lists == null || lists.length < 1) return null;
+        int size = lists.length;
+        int step = 1;
+        while (step < size) {
+            for (int i = 0; i < size - step; i += step << 1) {
+                lists[i] = mergeOfTwoSortedListNode(lists[i], lists[i + step]);
+            }
+            step <<= 1;
+        }
+        return lists[0];
+    }
+
+    // 23. 合并K个排序链表
+    public ListNode mergeKLists(ListNode[] lists) {
+        if (lists == null || lists.length < 1) return null;
+        ListNode ans = lists[0];
+        for (int i = 1; i < lists.length; i++) {
+            ans = mergeOfTwoSortedListNode(ans, lists[i]);
+        }
+        return ans;
+    }
+
+    // 215. 数组中的第K个最大元素
+    public int findKthLargest(int[] nums, int k) {
+        int size = nums.length;
+        return quickSelect(nums, 0, size - 1, size - k);
+    }
+
+    public int quickSelect(int[] nums, int left, int right, int k_smallest) {
+        if (left == right)
+            return nums[left];
+        Random random_num = new Random();
+        int pivot_index = left + random_num.nextInt(right - left);
+
+        pivot_index = partition(nums, left, right, pivot_index);
+        if (k_smallest == pivot_index)
+            return nums[k_smallest];
+        else if (k_smallest < pivot_index)
+            return quickSelect(nums, left, pivot_index - 1, k_smallest);
+        return quickSelect(nums, pivot_index + 1, right, k_smallest);
+    }
+
+    public int partition(int[] nums, int left, int right, int pivot_index) {
+        int pivot = nums[pivot_index];
+        swap(nums, pivot_index, right);
+        int store_index = left;
+        for (int i = left; i <= right; i++) {
+            if (nums[i] < pivot) {
+                swap(nums, store_index, i);
+                store_index++;
+            }
+        }
+        swap(nums, store_index, right);
+        return store_index;
+    }
+
+    public void swap(int[] nums, int a, int b) {
+        int tmp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = tmp;
+    }
+
+    // 148. 排序链表
+    public ListNode sortList(ListNode head) {
+        ListNode[] heads = new ListNode[32];
+        ListNode cur = head;
+        int maxIndex = 0;
+        while (cur != null) {
+            ListNode temp = cur;
+            cur = cur.next;
+            temp.next = null;
+            int i = 0;
+            while (heads[i] != null) {
+                ListNode newHead = mergeOfTwoSortedListNode(temp, heads[i]);
+                heads[i] = null;
+                i++;
+                temp = newHead;
+            }
+            heads[i] = temp;
+            if (i > maxIndex) {
+                maxIndex = i;
+            }
+        }
+        ListNode res = null;
+        for (int i = 0; i <= maxIndex; i++) {
+            if (heads[i] != null) {
+                res = mergeOfTwoSortedListNode(res, heads[i]);
+            }
+        }
+        return res;
+    }
+
+    // 238. 除自身以外数组的乘积
+    public int[] productExceptSelf(int[] nums) {
+        int t = 1;
+        int[] ans = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            ans[i] = t;
+            t *= nums[i];
+        }
+        t = 1;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            ans[i] *= t;
+            t *= nums[i];
+        }
+        return ans;
+    }
+
+    // 89. 格雷编码
+    public List<Integer> grayCode(int n) {
+        List<Integer> ans = new ArrayList<>();
+        ans.add(0);
+        int head = 1;
+        for (int i = 0; i < n; i++) {
+            // 倒叙保证连接处符合格雷编码
+            for (int j = ans.size() - 1; j >= 0; j--) {
+                ans.add(head + ans.get(j));
+            }
+            // 左移以为 相加 ans中的数 => 前面加一
+            head <<= 1;
+        }
+        return ans;
+    }
+
+    // 230. 二叉搜索树中第K小的元素
+    public int kthSmallest(TreeNode root, int k) {
+        // 中序遍历
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode cur = root;
+        while (cur != null || !stack.isEmpty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            cur = stack.pop();
+            k--;
+            if (k == 0) {
+                return cur.val;
+            }
+            cur = cur.right;
+        }
+        return 0;
+    }
+
 
     // 4. 寻找两个有序数组的中位数
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
@@ -1526,7 +1704,7 @@ public class Arithmetic {
     }
 
     // 合并两个有序链表
-    public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+    public static ListNode mergeOfTwoSortedListNode(ListNode l1, ListNode l2) {
         ListNode result = new ListNode(0);
         ListNode f1 = l1, f2 = l2, r = result;
         while (f1 != null && f2 != null) {
