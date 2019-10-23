@@ -131,29 +131,412 @@ public class Arithmetic {
         // 148. 排序链表
         // 23. 合并K个排序链表
         // 8. 字符串转换整数 (atoi)
-        System.out.println(c.myAtoi("   -42"));
+//        System.out.println(c.myAtoi("2147483648"));
+        // 124. 二叉树中的最大路径和
+        // 15. 三数之和
+//        System.out.println(c.threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
+        // 5. 最长回文子串
+//        System.out.println(c.longestPalindrome2("cbcbcac"));
+        // 33. 搜索旋转排序数组
+//        System.out.println(c.search(new int[]{5, 1, 3}, 3));
+        // 54. 螺旋矩阵
+//        System.out.println(c.spiralOrder(new int[][]{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}));
+        // 43. 字符串相乘
+//        String num1 = "987456987456547896547895";
+//        String num2 = "987453668547896534587459636874963547869856";
+//        System.out.println(c.multiply2(num1, num2));
+//        System.out.println(c.threeSumClosest(new int[]{0, 1, 2}, 3));
+        // 142. 环形链表 II
+        // 62. 不同路径
+//        System.out.println(c.uniquePaths(5, 5));
+        // 236. 二叉树的最近公共祖先
+        // 11. 盛最多水的容器
+        System.out.println(c.maxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
+    }
+
+    // 11. 盛最多水的容器
+    public int maxArea(int[] height) {
+        int ans = 0, left = 0, right = height.length - 1;
+        while (left < right) {
+            ans = Math.max(ans, Math.min(height[left], height[right]) * (right - left));
+            if (height[left] < height[right]) left++;
+            else right--;
+        }
+        return ans;
+    }
+
+    // 236. 二叉树的最近公共祖先
+    TreeNode lowestCommonAncestorAns = null;
+
+    public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || p == null || q == null) return null;
+        recurseTree(root, p, q);
+        return lowestCommonAncestorAns;
+    }
+
+    private boolean recurseTree(TreeNode currentNode, TreeNode p, TreeNode q) {
+        if (currentNode == null) {
+            return false;
+        }
+        int left = recurseTree(currentNode.left, p, q) ? 1 : 0;
+        int right = recurseTree(currentNode.right, p, q) ? 1 : 0;
+        int mid = (currentNode == p || currentNode == q) ? 1 : 0;
+        if (mid + left + right >= 2) {
+            lowestCommonAncestorAns = currentNode;
+        }
+        return (mid + left + right > 0);
+    }
+
+    // 62. 不同路径
+    public int uniquePaths(int m, int n) {
+        int[] cur = new int[n];
+        Arrays.fill(cur, 1);
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                cur[j] += cur[j - 1];
+            }
+        }
+        return cur[n - 1];
+    }
+
+    // 142. 环形链表 II
+    public ListNode detectCycle(ListNode head) {
+        if (head == null || head.next == null) return null;
+        ListNode low = head;
+        ListNode fast = head;
+        ListNode insertNode = null;
+        while (fast != null && fast.next != null) {
+            low = low.next;
+            fast = fast.next.next;
+            if (low == fast) {
+                insertNode = low;
+                break;
+            }
+        }
+        if (insertNode == null) return null;
+        ListNode curHead = head;
+        while (curHead != insertNode) {
+            curHead = curHead.next;
+            insertNode = insertNode.next;
+        }
+        return insertNode;
+    }
+
+    // 16. 最接近的三数之和
+    public int threeSumClosest(int[] nums, int target) {
+        Arrays.sort(nums);
+        int n = nums.length;
+        int ans = nums[0] + nums[1] + nums[2];
+        int left, right;
+        for (int i = 0; i < n; i++) {
+            left = i + 1;
+            right = n - 1;
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+                if (sum == target) {
+                    return sum;
+                } else if (sum > target) {
+                    right--;
+                } else {
+                    left++;
+                }
+                if (Math.abs(sum - target) < Math.abs(target - ans)) {
+                    ans = sum;
+                }
+            }
+        }
+        return ans;
+    }
+
+    // 43. 字符串相乘(优化版)
+    public String multiply2(String num1, String num2) {
+        if (num1.equals("0") || num2.equals("0")) {
+            return "0";
+        }
+        int[] res = new int[num1.length() + num2.length()];
+        for (int i = num1.length() - 1; i >= 0; i--) {
+            int n1 = num1.charAt(i) - '0';
+            for (int j = num2.length() - 1; j >= 0; j--) {
+                int n2 = num2.charAt(j) - '0';
+                int sum = (res[i + j + 1] + n1 * n2);
+                res[i + j + 1] = sum % 10;
+                res[i + j] += sum / 10;
+            }
+        }
+
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < res.length; i++) {
+            if (i == 0 && res[i] == 0) continue;
+            result.append(res[i]);
+        }
+        return result.toString();
+    }
+
+    // 43. 字符串相乘
+    public String multiply(String num1, String num2) {
+        if (num1.equals("0") || num2.equals("0")) return "0";
+        if (num1.length() < num2.length()) return multiply(num2, num1);
+        int m = num1.length();
+        int n = num2.length();
+        String[] addNums = new String[n];
+        for (int i = n - 1; i >= 0; i--) {
+            int a = num2.charAt(i) - '0';
+            StringBuilder temp = new StringBuilder();
+            int remainder = 0;
+            for (int j = m - 1; j >= 0; j--) {
+                int b = num1.charAt(j) - '0';
+                int c = a * b + remainder;
+                temp.append(c % 10);
+                remainder = c / 10;
+            }
+            if (remainder != 0) temp.append(remainder);
+            addNums[n - i - 1] = temp.toString();
+        }
+        // 进位
+        int carry = 0;
+        StringBuilder ans = new StringBuilder();
+        int index = 0;
+        int totalNum = addNums.length - 1 + addNums[addNums.length - 1].length();
+        while (index < totalNum) {
+            int num = carry;
+            for (int i = 0; i <= Math.min(index, addNums.length - 1); i++) {
+                if (index - i < addNums[i].length()) {
+                    num += addNums[i].charAt(index - i) - '0';
+                }
+            }
+            ans.append(num % 10);
+            carry = num / 10;
+            index++;
+        }
+        if (carry != 0) ans.append(carry);
+        return ans.reverse().toString();
+    }
+
+    // 54. 螺旋矩阵
+    public List<Integer> spiralOrder(int[][] matrix) {
+        List<Integer> ans = new ArrayList<>();
+        if (matrix == null || matrix.length < 1 || matrix[0].length < 1) return ans;
+        int l = 0, r = matrix[0].length - 1, t = 0, b = matrix.length - 1;
+        while (l <= r && t <= b) {
+            for (int i = l; i <= r; i++) {
+                ans.add(matrix[t][i]);
+            }
+            t++;
+            if (t > b) break;
+            for (int i = t; i <= b; i++) {
+                ans.add(matrix[i][r]);
+            }
+            r--;
+            if (l > r) break;
+            for (int i = r; i >= l; i--) {
+                ans.add(matrix[b][i]);
+            }
+            b--;
+            if (t > b) break;
+            for (int i = b; i >= t; i--) {
+                ans.add(matrix[i][l]);
+            }
+            l++;
+        }
+        return ans;
+    }
+
+
+    // 33. 搜索旋转排序数组
+    public int search(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            } else {
+                // 左半段有序
+                if (nums[left] <= nums[mid]) {
+                    if (target >= nums[left] && target <= nums[mid]) {
+                        right = mid - 1;
+                    } else {
+                        left = mid + 1;
+                    }
+                } else {
+                    if (target >= nums[mid] && target <= nums[right]) {
+                        left = mid + 1;
+                    } else {
+                        right = mid - 1;
+                    }
+                }
+            }
+        }
+        return -1;
+    }
+
+    // 5. 最长回文子串(Manacher's Algorithm 马拉车算法)
+    public String longestPalindrome2(String s) {
+        String T = preProcess(s);
+        int n = T.length();
+        int[] P = new int[n];
+        int C = 0, R = 0;
+        for (int i = 1; i < n - 1; i++) {
+            int i_mirror = 2 * C - i;
+            if (R > i) {
+                P[i] = Math.min(R - i, P[i_mirror]);// 防止超出 R
+            } else {
+                P[i] = 0;// 等于 R 的情况
+            }
+            // 碰到之前讲的三种情况时候，需要利用中心扩展法
+            while (T.charAt(i + 1 + P[i]) == T.charAt(i - 1 - P[i])) {
+                P[i]++;
+            }
+            // 判断是否需要更新 R
+            if (i + P[i] > R) {
+                C = i;
+                R = i + P[i];
+            }
+        }
+
+        // 找出 P 的最大值
+        int maxLen = 0;
+        int centerIndex = 0;
+        for (int i = 1; i < n - 1; i++) {
+            if (P[i] > maxLen) {
+                maxLen = P[i];
+                centerIndex = i;
+            }
+        }
+        int start = (centerIndex - maxLen) / 2; //最开始讲的求原字符串下标
+        return s.substring(start, start + maxLen);
+    }
+
+    private String preProcess(String s) {
+        int n = s.length();
+        if (n == 0) {
+            return "^$";
+        }
+        String ret = "^";
+        for (int i = 0; i < n; i++)
+            ret += "#" + s.charAt(i);
+        ret += "#$";
+        return ret;
+    }
+
+    // 5. 最长回文子串
+    public String longestPalindrome(String s) {
+        if (s == null || s.isEmpty()) return null;
+        int longestStart = 0;
+        int longestEnd = 0;
+        for (int i = 0; i < s.length() - 1; i++) {
+            // 偶数
+            int start = i;
+            int end = i + 1;
+            while (start >= 0 && end < s.length() && s.charAt(start) == s.charAt(end)) {
+                start--;
+                end++;
+            }
+            start++;
+            end--;
+            if (start < end && start >= 0 && end < s.length() && end - start > longestEnd - longestStart) {
+                longestStart = start;
+                longestEnd = end;
+            }
+            // 奇数
+            start = i - 1;
+            end = i + 1;
+            while (start >= 0 && end < s.length() && s.charAt(start) == s.charAt(end)) {
+                start--;
+                end++;
+            }
+            start++;
+            end--;
+            if (start < end && start >= 0 && end < s.length() && end - start > longestEnd - longestStart) {
+                longestStart = start;
+                longestEnd = end;
+            }
+        }
+        return s.substring(longestStart, longestEnd + 1);
+    }
+
+    // 15. 三数之和
+    public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>();
+        if (nums == null || nums.length < 3) return ans;
+        int n = nums.length;
+        Arrays.sort(nums);
+        for (int i = 0; i < n; i++) {
+            if (nums[i] > 0) break;
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+            int left = i + 1;
+            int right = n - 1;
+            while (left < right) {
+                int sum = nums[i] + nums[left] + nums[right];
+                if (sum == 0) {
+                    ans.add(new ArrayList<>(Arrays.asList(nums[i], nums[left], nums[right])));
+                    while (left < right && nums[left] == nums[left + 1]) left++;
+                    while (left < right && nums[right] == nums[right - 1]) right--;
+                    left++;
+                    right--;
+                } else if (sum > 0) {
+                    right--;
+                } else {
+                    left++;
+                }
+            }
+        }
+        return ans;
+    }
+
+    // 124. 二叉树中的最大路径和
+    public int maxPathSum(TreeNode root) {
+        maxGain(root);
+        return maxSum;
+    }
+
+    int maxSum = Integer.MIN_VALUE;
+
+    private int maxGain(TreeNode root) {
+        if (root == null) return 0;
+        int leftGain = Math.max(maxGain(root.left), 0);
+        int rightGain = Math.max(maxGain(root.right), 0);
+        int newGain = leftGain + root.val + rightGain;
+        maxSum = Math.max(maxSum, newGain);
+        return root.val + Math.max(leftGain, rightGain);
     }
 
     // 8. 字符串转换整数 (atoi)
     public int myAtoi(String str) {
         if (str == null) return 0;
-        str = str.trim();
+        int start = 0;
+        int n = str.length();
+        while (start < n && str.charAt(start) == ' ') {
+            start++;
+        }
+        str = str.substring(start);
         if (str.length() < 1) return 0;
         int ans = 0;
         boolean isNegative = false;
+        int intMax = Integer.MAX_VALUE / 10;
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
-            if (ch == '-') {
+            if (i == 0 && ch == '-') {
                 isNegative = true;
                 continue;
             }
+            if (i == 0 && ch == '+') {
+                continue;
+            }
             if (ch < '0' || ch > '9') {
-                return ans;
+                break;
             } else {
-                ans = ans * 10 + Integer.valueOf(String.valueOf(ch));
+                int temp = ch - '0';
+                if (ans > intMax || (ans == intMax && temp > 7)) {
+                    if (isNegative) {
+                        return Integer.MIN_VALUE;
+                    } else {
+                        return Integer.MAX_VALUE;
+                    }
+                }
+                ans = ans * 10 + temp;
             }
         }
-        return ans;
+        return isNegative ? -ans : ans;
     }
 
     // 23. 合并K个排序链表(归并)
