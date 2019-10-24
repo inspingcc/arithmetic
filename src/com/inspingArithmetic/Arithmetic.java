@@ -167,7 +167,6 @@ public class Arithmetic {
 
     // 236. 二叉树的最近公共祖先
     TreeNode lowestCommonAncestorAns = null;
-
     public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || p == null || q == null) return null;
         recurseTree(root, p, q);

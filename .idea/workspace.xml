@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263c879b-80dd-400c-8afc-c8cff52efbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/inspingArithmetic/LRUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic$ListNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic$MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic$MinStack.class" afterDir="false" />
@@ -25,16 +24,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/Arithmetic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="158" column="8" lean-forward="true" selection-start-line="158" selection-start-column="8" selection-end-line="164" selection-end-column="19" />
+            <state relative-caret-position="375">
+              <caret line="175" column="79" lean-forward="true" selection-start-line="175" selection-start-column="79" selection-end-line="175" selection-end-column="79" />
               <folding>
-                <element signature="e#28556#28557#0" expanded="true" />
-                <element signature="e#38289#38290#0" expanded="true" />
-                <element signature="e#39362#39363#0" expanded="true" />
-                <element signature="e#66871#66872#0" expanded="true" />
+                <element signature="e#28555#28556#0" expanded="true" />
+                <element signature="e#38288#38289#0" expanded="true" />
+                <element signature="e#39361#39362#0" expanded="true" />
+                <element signature="e#66870#66871#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="178" selection-start-line="178" selection-end-line="178" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#swap#0;class#ArithmeticSort#0" />
+                <element signature="method#bubbleSort#0;class#ArithmeticSort#0" />
+                <element signature="method#selectSort#0;class#ArithmeticSort#0" />
+                <element signature="method#insertSort#0;class#ArithmeticSort#0" />
+                <element signature="e#1473#1474#0" expanded="true" />
+                <element signature="e#1501#1502#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,10 +88,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/inspingArithmetic/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/com/inspingArithmetic/Arithmetic.java" />
+        <option value="$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticSort.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="584" />
     <option name="y" value="17" />
     <option name="width" value="1340" />
@@ -141,9 +160,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Arithmetic">
+  <component name="RunManager" selected="Application.ArithmeticSort">
     <configuration name="Arithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.inspingArithmetic.Arithmetic" />
+      <module name="Arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inspingArithmetic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.inspingArithmetic.ArithmeticSort" />
       <module name="Arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -167,6 +199,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArithmeticSort" />
         <item itemvalue="Application.Arithmetic" />
       </list>
     </recent_temporary>
@@ -185,18 +218,18 @@
       <workItem from="1571668606830" duration="1325000" />
       <workItem from="1571672881546" duration="863000" />
       <workItem from="1571707329318" duration="11130000" />
-      <workItem from="1571728889906" duration="26949000" />
+      <workItem from="1571728889906" duration="40463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38079000" />
+    <option name="totallyTimeSpent" value="51593000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="584" y="17" width="1340" height="1100" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -206,11 +239,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.38469493" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40303358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -272,6 +305,16 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticSort.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="s.substring(longestStart, longestEnd)" />
@@ -279,6 +322,7 @@
         <watch expression="temp.toString()" />
         <watch expression="cur[j-1]" />
         <watch expression="cur[j]" />
+        <watch expression="(i + end) / 2" />
       </configuration>
     </watches-manager>
   </component>
@@ -335,13 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="3387" column="44" selection-start-line="3387" selection-start-column="41" selection-end-line="3387" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -392,15 +429,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/Arithmetic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="158" column="8" lean-forward="true" selection-start-line="158" selection-start-column="8" selection-end-line="164" selection-end-column="19" />
+        <state relative-caret-position="375">
+          <caret line="175" column="79" lean-forward="true" selection-start-line="175" selection-start-column="79" selection-end-line="175" selection-end-column="79" />
           <folding>
-            <element signature="e#28556#28557#0" expanded="true" />
-            <element signature="e#38289#38290#0" expanded="true" />
-            <element signature="e#39362#39363#0" expanded="true" />
-            <element signature="e#66871#66872#0" expanded="true" />
+            <element signature="e#28555#28556#0" expanded="true" />
+            <element signature="e#38288#38289#0" expanded="true" />
+            <element signature="e#39361#39362#0" expanded="true" />
+            <element signature="e#66870#66871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="385" column="15" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="4308" column="30" selection-start-line="4308" selection-start-column="30" selection-end-line="4308" selection-end-column="30" />
+          <folding>
+            <element signature="e#200691#200692#0" expanded="true" />
+            <element signature="e#200732#200733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#swap#0;class#ArithmeticSort#0" />
+            <element signature="method#bubbleSort#0;class#ArithmeticSort#0" />
+            <element signature="method#selectSort#0;class#ArithmeticSort#0" />
+            <element signature="method#insertSort#0;class#ArithmeticSort#0" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1501#1502#0" expanded="true" />
           </folding>
         </state>
       </provider>
