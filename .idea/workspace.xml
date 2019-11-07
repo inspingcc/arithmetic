@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263c879b-80dd-400c-8afc-c8cff52efbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/statistic.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inspingArithmetic/study/JdkStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inspingArithmetic/study/MyFunctionInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic$MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic$MinStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arithmetic/com/inspingArithmetic/Arithmetic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/inspingArithmetic/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inspingArithmetic/Arithmetic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inspingArithmetic/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inspingArithmetic/LRUCache.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="241" />
+    <option name="myElementSize" value="294" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -23,57 +28,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/Arithmetic.java">
+        <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/study/JdkStudy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
-              <folding>
-                <element signature="e#28555#28556#0" expanded="true" />
-                <element signature="e#38288#38289#0" expanded="true" />
-                <element signature="e#39361#39362#0" expanded="true" />
-                <element signature="e#66870#66871#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/LRUCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="133" column="6" lean-forward="true" selection-start-line="133" selection-start-column="6" selection-end-line="133" selection-end-column="6" />
-              <folding>
-                <element signature="e#24535#24536#0" expanded="true" />
-                <element signature="e#24581#24582#0" expanded="true" />
-                <element signature="e#129105#129106#0" expanded="true" />
-                <element signature="e#129159#129160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
+            <state relative-caret-position="614">
+              <caret line="154" selection-start-line="154" selection-end-line="154" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#swap#0;class#ArithmeticSort#0" />
-                <element signature="method#bubbleSort#0;class#ArithmeticSort#0" />
-                <element signature="method#selectSort#0;class#ArithmeticSort#0" />
-                <element signature="method#insertSort#0;class#ArithmeticSort#0" />
-                <element signature="e#1473#1474#0" expanded="true" />
-                <element signature="e#1501#1502#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,20 +45,42 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>中序遍历</find>
-      <find>mergeTwoLists</find>
-      <find>capacity</find>
-      <find>removeEldestEntry</find>
-      <find>put</find>
       <find>put(</find>
       <find>afterNodeAccess</find>
-      <find>get(</find>
       <find>236</find>
+      <find>put</find>
+      <find>key</find>
+      <find>equals</find>
+      <find>hashcode</find>
+      <find>subList</find>
+      <find>entrySet</find>
+      <find>Entry</find>
+      <find>afterNodeRemoval</find>
+      <find>add(</find>
+      <find>resize</find>
+      <find>threshold</find>
+      <find>acept</find>
+      <find>clear</find>
+      <find>accept</find>
+      <find>summaryStatistics</find>
+      <find>parallel</find>
+      <find>joining</find>
+      <find>Collectors</find>
+      <find>reduce</find>
+      <find>Head</find>
+      <find>StatelessOp</find>
+      <find>reduce(</find>
+      <find>get(</find>
+      <find>Optional</find>
+      <find>序遍历</find>
+      <find>stack</find>
+      <find>深度</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,17 +91,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/inspingArithmetic/LRUCache.java" />
-        <option value="$PROJECT_DIR$/src/com/inspingArithmetic/Arithmetic.java" />
         <option value="$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/inspingArithmetic/Arithmetic.java" />
+        <option value="$PROJECT_DIR$/src/com/inspingArithmetic/JdkStudy.java" />
+        <option value="$PROJECT_DIR$/src/com/inspingArithmetic/study/MyFunctionInterface.java" />
+        <option value="$PROJECT_DIR$/src/com/inspingArithmetic/study/JdkStudy.java" />
         <option value="$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticSort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="584" />
-    <option name="y" value="17" />
-    <option name="width" value="1340" />
-    <option name="height" value="1100" />
+    <option name="x" value="370" />
+    <option name="y" value="72" />
+    <option name="width" value="1375" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectId" id="1SW97qzEmTtGUwL6fezoEMr8Rk6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -128,7 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,18 +132,56 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="inspingArithmetic" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inspingArithmetic" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11.0 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11.0 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11.0 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="arithmetic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11.0 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="java.base" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/arithmetic" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -168,7 +191,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.ActionScript" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,13 +205,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArithmeticSort">
+  <component name="RunManager" selected="Application.JdkStudy">
     <configuration name="Arithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.inspingArithmetic.Arithmetic" />
       <module name="Arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.inspingArithmetic.*" />
+          <option name="PATTERN" value="com.inspingArithmetic.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,7 +224,20 @@
       <module name="Arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.inspingArithmetic.*" />
+          <option name="PATTERN" value="com.inspingArithmetic.study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdkStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.inspingArithmetic.study.JdkStudy" />
+      <module name="Arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inspingArithmetic.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,6 +257,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JdkStudy" />
         <item itemvalue="Application.ArithmeticSort" />
         <item itemvalue="Application.Arithmetic" />
       </list>
@@ -240,42 +277,57 @@
       <workItem from="1571668606830" duration="1325000" />
       <workItem from="1571672881546" duration="863000" />
       <workItem from="1571707329318" duration="11130000" />
-      <workItem from="1571728889906" duration="42704000" />
+      <workItem from="1571728889906" duration="54752000" />
+      <workItem from="1572437450518" duration="13829000" />
+      <workItem from="1572572553355" duration="3831000" />
+      <workItem from="1572830225077" duration="32553000" />
+      <workItem from="1573024762170" duration="7212000" />
+      <workItem from="1573097161271" duration="4322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53834000" />
+    <option name="totallyTimeSpent" value="127629000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13859275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40303358" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33261105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="bottom" id="JProfiler" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32936078" />
       <window_info anchor="bottom" id="LuaCheck" order="14" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="15" weight="0.37811485" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.015991472" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
@@ -283,7 +335,44 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23880596" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40303358" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="JProfiler" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="LuaCheck" order="14" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.015991472" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -330,31 +419,47 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticSort.java</url>
-          <line>52</line>
+          <url>jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java</url>
+          <line>557</line>
           <properties />
-          <option name="timeStamp" value="33" />
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="s.substring(longestStart, longestEnd)" />
-        <watch expression="ans" />
-        <watch expression="temp.toString()" />
-        <watch expression="cur[j-1]" />
-        <watch expression="cur[j]" />
-        <watch expression="(i + end) / 2" />
+        <watch expression="a == 1" />
+        <watch expression="a == 1 &amp; b == 2" />
+        <watch expression="b == 2" />
+        <watch expression="true ^ true" language="JAVA" />
+        <watch expression="1^1" language="JAVA" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/arithmetic$Arithmetic.ic" NAME="Arithmetic Coverage Results" MODIFIED="1571795184270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.inspingArithmetic.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/arithmetic$JdkStudy.ic" NAME="JdkStudy Coverage Results" MODIFIED="1572934009662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.inspingArithmetic.study.*</FILTER>
+    </SUITE>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>1^1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>true ^ true</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>Integer.valueOf(String.valueOf('5'))</expression-string>
         <language-id>JAVA</language-id>
@@ -363,136 +468,597 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Integer.java">
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="982" column="36" selection-start-line="982" selection-start-column="36" selection-end-line="982" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StringLatin1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="530" column="25" selection-start-line="530" selection-start-column="25" selection-end-line="530" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/math/BigInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="671" column="9" lean-forward="true" selection-start-line="671" selection-start-column="9" selection-end-line="671" selection-end-column="9" />
+        <state relative-caret-position="182">
+          <caret line="184" column="35" lean-forward="true" selection-start-line="184" selection-start-column="35" selection-end-line="184" selection-end-column="35" />
           <folding>
-            <element signature="e#26551#26552#0" expanded="true" />
-            <element signature="e#26580#26581#0" expanded="true" />
+            <element signature="e#7784#7785#0" expanded="true" />
+            <element signature="e#7837#7838#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/TreeMap.java">
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/BiFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="164" column="39" selection-start-line="164" selection-start-column="39" selection-end-line="164" selection-end-column="39" />
+        <state relative-caret-position="494">
+          <caret line="69" column="39" lean-forward="true" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/IntConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/BinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/DoubleBinaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="47" column="52" lean-forward="true" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ImmutableCollections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="803" column="38" lean-forward="true" selection-start-line="803" selection-start-column="38" selection-end-line="803" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
           <folding>
-            <element signature="e#5786#5787#0" expanded="true" />
-            <element signature="e#5819#5820#0" expanded="true" />
-            <element signature="e#6615#6616#0" expanded="true" />
-            <element signature="e#6659#6660#0" expanded="true" />
+            <element signature="e#0#741#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="622" lean-forward="true" selection-start-line="622" selection-end-line="622" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="567" column="29" lean-forward="true" selection-start-line="567" selection-start-column="29" selection-end-line="567" selection-end-column="29" />
+        <state relative-caret-position="219">
+          <caret line="854" column="19" lean-forward="true" selection-start-line="854" selection-start-column="19" selection-end-line="854" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/UnaryOperator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="48" column="40" lean-forward="true" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
           <folding>
-            <element signature="e#19005#19006#0" expanded="true" />
-            <element signature="e#19063#19064#0" expanded="true" />
+            <element signature="e#0#1093#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Spliterators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="417" column="37" selection-start-line="417" selection-start-column="37" selection-end-line="417" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/TerminalOp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
-          <caret line="439" column="50" lean-forward="true" selection-start-line="439" selection-start-column="50" selection-end-line="439" selection-end-column="50" />
-          <folding>
-            <element signature="e#19630#19631#0" expanded="true" />
-            <element signature="e#19658#19659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="385" column="15" selection-start-line="385" selection-start-column="15" selection-end-line="385" selection-end-column="15" />
+        <state relative-caret-position="407">
+          <caret line="397" column="17" lean-forward="true" selection-start-line="397" selection-start-column="17" selection-end-line="397" selection-end-column="17" />
+          <folding>
+            <element signature="e#3513#3514#0" expanded="true" />
+            <element signature="e#3571#3572#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="4308" column="30" selection-start-line="4308" selection-start-column="30" selection-end-line="4308" selection-end-column="30" />
+        <state relative-caret-position="519">
+          <caret line="730" column="22" selection-start-line="730" selection-start-column="22" selection-end-line="730" selection-end-column="22" />
           <folding>
-            <element signature="e#200691#200692#0" expanded="true" />
-            <element signature="e#200732#200733#0" expanded="true" />
+            <element signature="e#34014#34015#0" expanded="true" />
+            <element signature="e#34070#34071#0" expanded="true" />
+            <element signature="e#34701#34702#0" expanded="true" />
+            <element signature="e#34766#34767#0" expanded="true" />
+            <element signature="e#35495#35496#0" expanded="true" />
+            <element signature="e#35559#35560#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/IntSummaryStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="193" column="24" selection-start-line="193" selection-start-column="24" selection-end-line="193" selection-end-column="24" />
+          <folding>
+            <element signature="e#5535#5536#0" expanded="true" />
+            <element signature="e#5561#5562#0" expanded="true" />
+            <element signature="e#5800#5801#0" expanded="true" />
+            <element signature="e#5826#5827#0" expanded="true" />
+            <element signature="e#6054#6055#0" expanded="true" />
+            <element signature="e#6131#6132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/IntPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="507" column="20" lean-forward="true" selection-start-line="507" selection-start-column="20" selection-end-line="507" selection-end-column="20" />
+          <folding>
+            <element signature="e#16551#16552#0" expanded="true" />
+            <element signature="e#16605#16606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="1572" column="6" lean-forward="true" selection-start-line="1572" selection-start-column="6" selection-end-line="1572" selection-end-column="6" />
+          <folding>
+            <element signature="docComment;class#Collectors#0" />
+            <element signature="e#4161#4185#0" />
+            <element signature="e#4191#4421#0" />
+            <element signature="e#4191#4683#0" />
+            <element signature="e#4689#5060#0" />
+            <element signature="e#4689#5493#0" />
+            <element signature="e#5166#5486#0" />
+            <element signature="e#5231#5453#1" />
+            <element signature="e#5499#5998#0" />
+            <element signature="e#5499#6495#0" />
+            <element signature="e#6239#6488#0" />
+            <element signature="e#6631#6803#0" />
+            <element signature="e#6631#8448#0" />
+            <element signature="e#7138#7603#0" />
+            <element signature="e#7613#7909#0" />
+            <element signature="e#8454#9062#0" />
+            <element signature="e#8454#9379#0" />
+            <element signature="e#9288#9329#0" />
+            <element signature="e#9385#9899#0" />
+            <element signature="e#9385#10182#0" />
+            <element signature="e#10079#10132#0" />
+            <element signature="e#10188#10740#0" />
+            <element signature="e#10188#11149#0" />
+            <element signature="e#10967#11020#0" />
+            <element signature="e#11155#11752#0" />
+            <element signature="e#11155#12356#0" />
+            <element signature="e#11926#12296#0" />
+            <element signature="e#12016#12135#1" />
+            <element signature="e#12141#12259#1" />
+            <element signature="e#12362#13074#0" />
+            <element signature="e#12362#13800#0" />
+            <element signature="e#13295#13665#0" />
+            <element signature="e#13385#13504#1" />
+            <element signature="e#13510#13628#1" />
+            <element signature="e#13806#14067#0" />
+            <element signature="e#13806#14378#0" />
+            <element signature="e#14279#14320#0" />
+            <element signature="e#14384#14751#0" />
+            <element signature="e#14384#14887#0" />
+            <element signature="e#14893#15539#0" />
+            <element signature="e#14893#16005#0" />
+            <element signature="e#16011#16491#0" />
+            <element signature="e#16011#16791#0" />
+            <element signature="e#16620#16784#0" />
+            <element signature="e#16797#18097#0" />
+            <element signature="e#16797#18661#0" />
+            <element signature="e#18667#20506#0" />
+            <element signature="e#18667#21343#0" />
+            <element signature="e#20877#21203#0" />
+            <element signature="e#20972#21173#0" />
+            <element signature="e#21349#23170#0" />
+            <element signature="e#21349#23900#0" />
+            <element signature="e#23514#23746#0" />
+            <element signature="e#23588#23709#1" />
+            <element signature="e#23906#24815#0" />
+            <element signature="e#23906#25853#0" />
+            <element signature="e#25168#25541#1" />
+            <element signature="e#25286#25531#1" />
+            <element signature="e#25859#26313#0" />
+            <element signature="e#26423#26937#0" />
+            <element signature="e#27105#27619#0" />
+            <element signature="e#27787#28179#0" />
+            <element signature="e#27787#28505#0" />
+            <element signature="e#28363#28406#0" />
+            <element signature="e#28424#28461#0" />
+            <element signature="e#28511#28900#0" />
+            <element signature="e#28511#29227#0" />
+            <element signature="e#29084#29128#0" />
+            <element signature="e#29146#29183#0" />
+            <element signature="e#29233#30037#0" />
+            <element signature="e#29233#31017#0" />
+            <element signature="e#30148#30537#0" />
+            <element signature="e#30627#30775#0" />
+            <element signature="e#30793#30943#0" />
+            <element signature="e#31023#31477#0" />
+            <element signature="e#31023#31843#0" />
+            <element signature="e#31849#32044#0" />
+            <element signature="e#31849#32407#0" />
+            <element signature="e#32413#32839#0" />
+            <element signature="e#32413#33226#0" />
+            <element signature="e#33025#33076#0" />
+            <element signature="e#33094#33145#0" />
+            <element signature="e#33232#33654#0" />
+            <element signature="e#33232#34044#0" />
+            <element signature="e#33842#33894#0" />
+            <element signature="e#33912#33963#0" />
+            <element signature="e#34050#35225#0" />
+            <element signature="e#34050#36048#0" />
+            <element signature="e#35338#35626#0" />
+            <element signature="e#35716#35815#0" />
+            <element signature="e#35833#35944#0" />
+            <element signature="e#36054#37023#0" />
+            <element signature="e#36054#37374#0" />
+            <element signature="e#37205#37244#0" />
+            <element signature="e#37262#37314#0" />
+            <element signature="e#37539#38795#0" />
+            <element signature="e#37539#39550#0" />
+            <element signature="class#38892:39289" />
+            <element signature="method#accept#0;class#38892:39289" />
+            <element signature="e#39090#39157#1" />
+            <element signature="e#39179#39265#1" />
+            <element signature="e#39425#39482#0" />
+            <element signature="e#39556#41302#0" />
+            <element signature="e#39556#41759#0" />
+            <element signature="e#41592#41645#0" />
+            <element signature="e#41663#41715#0" />
+            <element signature="e#41765#43580#0" />
+            <element signature="e#43761#45947#0" />
+            <element signature="e#43761#46219#0" />
+            <element signature="e#46225#48649#0" />
+            <element signature="e#46225#50336#0" />
+            <element signature="e#49108#49373#0" />
+            <element signature="e#49693#49788#1" />
+            <element signature="e#49802#50330#1" />
+            <element signature="e#49981#50223#0" />
+            <element signature="e#50342#51930#0" />
+            <element signature="e#50342#52163#0" />
+            <element signature="e#52169#54168#0" />
+            <element signature="e#52169#54500#0" />
+            <element signature="e#54506#56752#0" />
+            <element signature="e#54506#59132#0" />
+            <element signature="e#57612#57944#1" />
+            <element signature="e#57640#57933#0" />
+            <element signature="e#57958#58361#1" />
+            <element signature="e#57986#58350#0" />
+            <element signature="e#58247#58336#0" />
+            <element signature="e#58457#58563#1" />
+            <element signature="e#58577#59126#1" />
+            <element signature="e#58766#59008#0" />
+            <element signature="e#59138#59971#0" />
+            <element signature="e#59138#60143#0" />
+            <element signature="e#60149#61473#0" />
+            <element signature="e#60149#62895#0" />
+            <element signature="e#62457#62546#1" />
+            <element signature="e#62560#62889#1" />
+            <element signature="e#62901#65492#0" />
+            <element signature="e#62901#65921#0" />
+            <element signature="e#65927#67484#0" />
+            <element signature="e#65927#68043#0" />
+            <element signature="e#68049#71022#0" />
+            <element signature="e#68049#71364#0" />
+            <element signature="e#71371#73827#0" />
+            <element signature="e#73833#76079#0" />
+            <element signature="e#73833#76692#0" />
+            <element signature="e#76698#79240#0" />
+            <element signature="e#76698#79730#0" />
+            <element signature="e#79736#82514#0" />
+            <element signature="e#79736#82868#0" />
+            <element signature="e#82874#84890#0" />
+            <element signature="e#82874#85564#0" />
+            <element signature="e#85570#86069#0" />
+            <element signature="e#85570#86434#0" />
+            <element signature="e#86382#86419#0" />
+            <element signature="e#86440#86940#0" />
+            <element signature="e#86440#87312#0" />
+            <element signature="e#87260#87297#0" />
+            <element signature="e#87318#87814#0" />
+            <element signature="e#87318#88200#0" />
+            <element signature="e#88148#88185#0" />
+            <element signature="e#88206#88269#0" />
+            <element signature="e#88206#89213#0" />
+            <element signature="e#88459#88577#0" />
+            <element signature="e#88587#89207#0" />
+            <element signature="class#88675:89196" />
+            <element signature="method#iterator#0;class#88675:89196" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="133" column="6" lean-forward="true" selection-start-line="133" selection-start-column="6" selection-end-line="133" selection-end-column="6" />
+        <state relative-caret-position="450">
+          <caret line="2287" column="58" lean-forward="true" selection-start-line="2287" selection-start-column="58" selection-end-line="2287" selection-end-column="58" />
           <folding>
-            <element signature="e#24535#24536#0" expanded="true" />
-            <element signature="e#24581#24582#0" expanded="true" />
-            <element signature="e#129105#129106#0" expanded="true" />
-            <element signature="e#129159#129160#0" expanded="true" />
+            <element signature="e#94325#94326#0" expanded="true" />
+            <element signature="e#94363#94364#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/IntStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="540" column="19" selection-start-line="540" selection-start-column="13" selection-end-line="540" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/Sink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="252" column="24" lean-forward="true" selection-start-line="252" selection-start-column="24" selection-end-line="252" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/DistinctOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/AbstractPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="179" column="4" selection-start-line="179" selection-start-column="4" selection-end-line="179" selection-end-column="4" />
+          <folding>
+            <element signature="e#13520#13521#0" expanded="true" />
+            <element signature="e#13563#13564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="1187" column="24" selection-start-line="1187" selection-start-column="24" selection-end-line="1187" selection-end-column="24" />
+          <folding>
+            <element signature="e#56709#56710#0" expanded="true" />
+            <element signature="e#56753#56754#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="5612" column="32" selection-start-line="5612" selection-start-column="32" selection-end-line="5612" selection-end-column="32" />
+          <folding>
+            <element signature="e#249870#249871#0" expanded="true" />
+            <element signature="e#249923#249924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/StreamSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/jdk.compiler/com/sun/tools/javac/code/TypeAnnotations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="179" column="25" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="557" column="36" lean-forward="true" selection-start-line="557" selection-start-column="36" selection-end-line="557" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/stream/ReduceOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="139" column="31" lean-forward="true" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+          <folding>
+            <element signature="e#4033#4034#0" expanded="true" />
+            <element signature="e#4090#4091#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/study/MyFunctionInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#2041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/time/ZoneId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="235" column="43" lean-forward="true" selection-start-line="235" selection-start-column="43" selection-end-line="235" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="212" column="36" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/time/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="182" column="24" selection-start-line="182" selection-start-column="24" selection-end-line="182" selection-end-column="24" />
+          <folding>
+            <element signature="e#7523#7524#0" expanded="true" />
+            <element signature="e#7585#7586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/time/temporal/ChronoField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="696" column="19" selection-start-line="696" selection-start-column="19" selection-end-line="696" selection-end-column="19" />
+          <folding>
+            <element signature="e#33959#33960#0" expanded="true" />
+            <element signature="e#34015#34016#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/time/chrono/ChronoLocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="325" column="41" selection-start-line="325" selection-start-column="37" selection-end-line="325" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/time/chrono/ChronoLocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="120" column="54" lean-forward="true" selection-start-line="120" selection-start-column="54" selection-end-line="120" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="685" column="43" lean-forward="true" selection-start-line="685" selection-start-column="43" selection-end-line="685" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/time/Instant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="411" column="9" lean-forward="true" selection-start-line="411" selection-start-column="9" selection-end-line="411" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20960">
+          <caret line="1350" column="19" selection-start-line="1350" selection-start-column="19" selection-end-line="1350" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/time/Duration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4896">
+          <caret line="404" column="56" selection-start-line="404" selection-start-column="56" selection-end-line="404" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="168" column="24" selection-start-line="168" selection-start-column="24" selection-end-line="168" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/ArithmeticSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="135" column="9" lean-forward="true" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#swap#0;class#ArithmeticSort#0" />
-            <element signature="method#bubbleSort#0;class#ArithmeticSort#0" />
-            <element signature="method#selectSort#0;class#ArithmeticSort#0" />
-            <element signature="method#insertSort#0;class#ArithmeticSort#0" />
-            <element signature="e#1473#1474#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="470">
+          <caret line="111" column="11" lean-forward="true" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/LRUCache.java">
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="298">
+          <caret line="295" column="16" selection-start-line="295" selection-start-column="16" selection-end-line="295" selection-end-column="16" />
+          <folding>
+            <element signature="e#7989#7990#0" expanded="true" />
+            <element signature="e#8017#8018#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/Arithmetic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+        <state relative-caret-position="315">
+          <caret line="2195" column="14" lean-forward="true" selection-start-line="2195" selection-start-column="14" selection-end-line="2195" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2038">
+          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="59" column="57" lean-forward="true" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="288" column="6" lean-forward="true" selection-start-line="288" selection-start-column="6" selection-end-line="288" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/inspingArithmetic/study/JdkStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
           <folding>
-            <element signature="e#28555#28556#0" expanded="true" />
-            <element signature="e#38288#38289#0" expanded="true" />
-            <element signature="e#39361#39362#0" expanded="true" />
-            <element signature="e#66870#66871#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
