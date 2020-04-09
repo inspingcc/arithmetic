@@ -12,7 +12,7 @@ import org.parse4j.operation.*;
 import org.parse4j.util.ParseRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import parse.ParseTest;
+import main.java.com.houshanping.parse.ParseTest;
 
 import java.util.*;
 
