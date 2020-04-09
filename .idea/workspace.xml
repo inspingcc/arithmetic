@@ -2,99 +2,110 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263c879b-80dd-400c-8afc-c8cff52efbaf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/CDL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/Cookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/CookieList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/HTTP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/HTTPTokener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/JSONArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/JSONException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/JSONML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/JSONObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/JSONPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/JSONPointerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/JSONString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/JSONStringer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/JSONTokener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/JSONWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/Property.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/XML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/json/XMLTokener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/Parse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseAnalytics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseBatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseClassName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseCloud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseGeoPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParsePush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseRelation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/ParseUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/bolts/AggregateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/bolts/Capture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/bolts/Continuation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/bolts/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/CountCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/DeleteCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/FindCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/FunctionCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/GetCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/GetDataCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/LocationCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/LoginCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/ParseCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/ProgressCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/RequestPasswordResetCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/SaveCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/SendCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/callback/SignUpCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/command/ParseBatchCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/command/ParseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/command/ParseDeleteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/command/ParseGetCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/command/ParsePostCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/command/ParsePutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/command/ParseResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/command/ParseUploadCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/encode/ParseObjectEncodingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/encode/PointerEncodingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/encode/PointerOrLocalIdEncodingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/http/CountingHttpEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/operation/AddOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/operation/AddUniqueOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/operation/DeleteFieldOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/operation/IncrementFieldOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/operation/OperationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/operation/ParseFieldOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/operation/ParseFieldOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/operation/RelationOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/operation/RemoveFieldOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/operation/SetFieldOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/util/MimeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/util/ParseEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/util/ParseRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/parse4j/util/Preconditions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bijing/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/Arithmetic$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/Arithmetic$MinStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/Arithmetic$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/LRUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/study/GZXTest$ModelTreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/study/GZXTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/study/JdkStudy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/study/MyFunctionInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/GlobalThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/atomic/StudyAtomicReference$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/atomic/StudyAtomicReference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/atomic/StudyAtomicReferenceFieldUpdater$Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/atomic/StudyAtomicReferenceFieldUpdater$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/atomic/StudyAtomicReferenceFieldUpdater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/atomic/StudyAtomicStampedReference$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/atomic/StudyAtomicStampedReference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/collections/StudyCollections.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/collections/StudyProducerConsumerBlockingQueue$Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/collections/StudyProducerConsumerBlockingQueue$Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/collections/StudyProducerConsumerBlockingQueue$Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/collections/StudyProducerConsumerBlockingQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/locks/FIFOMutex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/locks/StudyCondition$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/locks/StudyCondition$Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/locks/StudyCondition$FactoryData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/locks/StudyCondition$Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/locks/StudyCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/locks/StudyLockSupport$FIFOMutex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/locks/StudyLockSupport$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/locks/StudyLockSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/locks/StudyStampedLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/multithread/Balking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/multithread/GuardedSuspension.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/multithread/Immutable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/multithread/ProducerConsumer$Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/multithread/ProducerConsumer$Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/multithread/ProducerConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/multithread/SingleThreadedExecution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/netty/NettyClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/netty/NettyServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/netty/NettyServer$IdleHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/netty/NettyServer$LogicHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudyCountDownLatch$CountThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudyCountDownLatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudyCyclicBarrier2$CountThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudyPhaser1$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudyPhaser1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudyPhaser2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudyPhaser2$Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudyPhaser2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/nio/study/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/Arithmetic$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/Arithmetic$MinStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/Arithmetic$TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/LRUCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/study/GZXTest$ModelTreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/study/GZXTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/study/JdkStudy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/study/MyFunctionInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/GlobalThreadFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/atomic/StudyAtomicReference$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/atomic/StudyAtomicReference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/atomic/StudyAtomicReferenceFieldUpdater$Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/atomic/StudyAtomicReferenceFieldUpdater$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/atomic/StudyAtomicReferenceFieldUpdater.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/atomic/StudyAtomicStampedReference$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/atomic/StudyAtomicStampedReference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/collections/StudyCollections.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/collections/StudyProducerConsumerBlockingQueue$Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/collections/StudyProducerConsumerBlockingQueue$Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/collections/StudyProducerConsumerBlockingQueue$Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/collections/StudyProducerConsumerBlockingQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/locks/FIFOMutex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/locks/StudyCondition$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/locks/StudyCondition$Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/locks/StudyCondition$FactoryData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/locks/StudyCondition$Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/locks/StudyCondition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/locks/StudyLockSupport$FIFOMutex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/locks/StudyLockSupport$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/locks/StudyLockSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/locks/StudyStampedLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/multithread/Balking.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/multithread/GuardedSuspension.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/multithread/Immutable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/multithread/ProducerConsumer$Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/multithread/ProducerConsumer$Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/multithread/ProducerConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/multithread/SingleThreadedExecution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/netty/NettyClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/netty/NettyServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/netty/NettyServer$IdleHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/netty/NettyServer$LogicHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudyCountDownLatch$CountThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudyCountDownLatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudyCyclicBarrier2$CountThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudyPhaser1$MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudyPhaser1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudyPhaser2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudyPhaser2$Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudyPhaser2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/nio/study/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arithmetic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Arithmetic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/insping/GlobalThreadFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/houshanping/juc/GlobalThreadFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/insping/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/houshanping/juc/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/insping/atomic/StudyAtomicReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/houshanping/juc/atomic/StudyAtomicReference.java" afterDir="false" />
@@ -131,7 +142,152 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/multiplex/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/houshanping/nio/study/multiplex/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/multiplex/MultiplexServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/houshanping/nio/study/multiplex/MultiplexServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/parse/ParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/houshanping/parse/ParseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Arithmetic.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/parse4j/ParseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/parse4j/ParseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/GlobalThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/Test$Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/Test$Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/atomic/StudyAtomicReference$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/atomic/StudyAtomicReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/atomic/StudyAtomicReferenceFieldUpdater$Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/atomic/StudyAtomicReferenceFieldUpdater$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/atomic/StudyAtomicReferenceFieldUpdater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/atomic/StudyAtomicStampedReference$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/atomic/StudyAtomicStampedReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/collections/StudyCollections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/collections/StudyProducerConsumerBlockingQueue$Channel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/collections/StudyProducerConsumerBlockingQueue$Channel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/collections/StudyProducerConsumerBlockingQueue$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/collections/StudyProducerConsumerBlockingQueue$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/collections/StudyProducerConsumerBlockingQueue$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/collections/StudyProducerConsumerBlockingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/locks/FIFOMutex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/locks/StudyCondition$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/locks/StudyCondition$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/locks/StudyCondition$FactoryData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/locks/StudyCondition$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/locks/StudyCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/locks/StudyLockSupport$FIFOMutex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/locks/StudyLockSupport$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/locks/StudyLockSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/locks/StudyStampedLock$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/locks/StudyStampedLock$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/locks/StudyStampedLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/multithread/Balking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/multithread/GuardedSuspension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/multithread/Immutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/multithread/ProducerConsumer$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/multithread/ProducerConsumer$Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/multithread/ProducerConsumer$Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/multithread/ProducerConsumer$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/multithread/ProducerConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/multithread/SingleThreadedExecution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/netty/NettyClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/netty/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/netty/NettyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/netty/NettyServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/netty/NettyServer$IdleHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/netty/NettyServer$LogicHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/netty/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/netty/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudyCountDownLatch$CountThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudyCountDownLatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudyCyclicBarrier$Racer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudyCyclicBarrier$Racer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudyCyclicBarrier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudyCyclicBarrier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudyCyclicBarrier2$CountThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudyCyclicBarrier2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudyCyclicBarrier2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudyPhaser1$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudyPhaser1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudyPhaser2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudyPhaser2$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudyPhaser2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/synchronizer/StudySemaphore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudySemaphore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/insping/tools/filterCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/tools/filterCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/Arithmetic$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/Arithmetic$MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/Arithmetic$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/Arithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/Arithmetic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/ArithmeticSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/ArithmeticSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/study/GZXTest$Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/study/GZXTest$Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/study/GZXTest$ModelTreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/study/GZXTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/study/JdkStudy$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/study/JdkStudy$Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/study/JdkStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingArithmetic/study/MyFunctionInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingJDK/javaNIOStudy/JavaNioServerSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/nio/study/JavaNioServerSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/inspingJDK/javaNIOStudy/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/multiplex/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/nio/study/multiplex/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/multiplex/MultiplexServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/nio/study/multiplex/MultiplexServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/parse4j/ParseObject$SaveInBackgroundThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/parse4j/ParseObject$SaveInBackgroundThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parse/ParseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/parse/ParseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/GlobalThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/Test$Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/Test$Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/atomic/StudyAtomicReference$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/atomic/StudyAtomicReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/atomic/StudyAtomicReferenceFieldUpdater$Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/atomic/StudyAtomicReferenceFieldUpdater$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/atomic/StudyAtomicReferenceFieldUpdater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/atomic/StudyAtomicStampedReference$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/atomic/StudyAtomicStampedReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/collections/StudyCollections.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/collections/StudyProducerConsumerBlockingQueue$Channel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/collections/StudyProducerConsumerBlockingQueue$Channel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/collections/StudyProducerConsumerBlockingQueue$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/collections/StudyProducerConsumerBlockingQueue$Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/collections/StudyProducerConsumerBlockingQueue$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/collections/StudyProducerConsumerBlockingQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/locks/FIFOMutex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/locks/StudyCondition$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/locks/StudyCondition$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/locks/StudyCondition$FactoryData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/locks/StudyCondition$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/locks/StudyCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/locks/StudyLockSupport$FIFOMutex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/locks/StudyLockSupport$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/locks/StudyLockSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/locks/StudyStampedLock$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/locks/StudyStampedLock$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/locks/StudyStampedLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/multithread/Balking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/multithread/GuardedSuspension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/multithread/Immutable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/multithread/ProducerConsumer$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/multithread/ProducerConsumer$Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/multithread/ProducerConsumer$Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/multithread/ProducerConsumer$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/multithread/ProducerConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/multithread/SingleThreadedExecution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/netty/NettyClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/netty/NettyClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/netty/NettyClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/netty/NettyServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/netty/NettyServer$IdleHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/netty/NettyServer$LogicHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/netty/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/netty/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudyCountDownLatch$CountThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudyCountDownLatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudyCyclicBarrier$Racer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudyCyclicBarrier$Racer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudyCyclicBarrier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/synchronizer/StudyCyclicBarrier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudyCyclicBarrier2$CountThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudyCyclicBarrier2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudyCyclicBarrier2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudyPhaser1$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudyPhaser1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudyPhaser2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudyPhaser2$Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudyPhaser2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/synchronizer/StudySemaphore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/juc/synchronizer/StudySemaphore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/insping/tools/filterCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/juc/tools/filterCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/Arithmetic$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/Arithmetic$MinStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/Arithmetic$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/Arithmetic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/Arithmetic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/ArithmeticSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/ArithmeticSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/LRUCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/study/GZXTest$Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/arithmetic/study/GZXTest$Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/study/GZXTest$ModelTreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/study/GZXTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/study/JdkStudy$Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/arithmetic/study/JdkStudy$Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/study/JdkStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingArithmetic/study/MyFunctionInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingJDK/javaNIOStudy/JavaNioServerSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/nio/study/JavaNioServerSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/inspingJDK/javaNIOStudy/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/multiplex/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/com/houshanping/nio/study/multiplex/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/multiplex/MultiplexServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/nio/study/multiplex/MultiplexServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/parse4j/ParseObject$SaveInBackgroundThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/parse4j/ParseObject$SaveInBackgroundThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/parse/ParseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/java/com/houshanping/parse/ParseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,7 +502,7 @@
       <workItem from="1585133076094" duration="1152000" />
       <workItem from="1585620306207" duration="13958000" />
       <workItem from="1586225079640" duration="6299000" />
-      <workItem from="1586396668257" duration="14395000" />
+      <workItem from="1586396668257" duration="14694000" />
     </task>
     <servers />
   </component>
