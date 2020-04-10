@@ -1,4 +1,4 @@
-package main.java.com.houshanping.juc.netty;
+package com.houshanping.juc.netty;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelHandlerContext;

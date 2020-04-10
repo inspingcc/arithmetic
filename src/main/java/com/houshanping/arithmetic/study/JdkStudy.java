@@ -1,4 +1,4 @@
-package main.java.com.houshanping.arithmetic.study;
+package com.houshanping.arithmetic.study;
 
 import java.io.*;
 import java.security.Timestamp;

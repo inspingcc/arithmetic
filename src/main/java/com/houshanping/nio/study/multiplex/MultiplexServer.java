@@ -1,4 +1,4 @@
-package main.java.com.houshanping.nio.study.multiplex;
+package com.houshanping.nio.study.multiplex;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

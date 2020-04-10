@@ -1,4 +1,4 @@
-package main.java.com.houshanping.juc.synchronizer;
+package com.houshanping.juc.synchronizer;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

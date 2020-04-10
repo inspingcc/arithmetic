@@ -1,4 +1,4 @@
-package main.java.com.houshanping.juc.multithread;
+package com.houshanping.juc.multithread;
 
 /**
  * @Author: houshanping

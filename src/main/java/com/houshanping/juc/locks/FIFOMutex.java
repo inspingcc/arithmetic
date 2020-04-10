@@ -1,4 +1,4 @@
-package main.java.com.houshanping.juc.locks;
+package com.houshanping.juc.locks;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;

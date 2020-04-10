@@ -1,4 +1,4 @@
-package main.java.com.houshanping.juc.multithread;
+package com.houshanping.juc.multithread;
 
 /**
  * Immutable 模式 String类就是其中一个

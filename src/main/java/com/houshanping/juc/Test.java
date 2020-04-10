@@ -1,4 +1,4 @@
-package main.java.com.houshanping.juc;
+package com.houshanping.juc;
 
 import java.util.HashMap;
 import java.util.Map;

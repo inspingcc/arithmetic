@@ -1,4 +1,4 @@
-package main.java.com.houshanping.juc;
+package com.houshanping.juc;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;

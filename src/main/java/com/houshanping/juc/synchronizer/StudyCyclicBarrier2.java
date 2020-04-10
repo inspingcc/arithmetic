@@ -1,4 +1,4 @@
-package main.java.com.houshanping.juc.synchronizer;
+package com.houshanping.juc.synchronizer;
 
 import java.util.ArrayList;
 import java.util.List;

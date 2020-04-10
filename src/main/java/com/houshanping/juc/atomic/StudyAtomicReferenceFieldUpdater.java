@@ -1,4 +1,4 @@
-package main.java.com.houshanping.juc.atomic;
+package com.houshanping.juc.atomic;
 
 import java.util.ArrayList;
 import java.util.List;

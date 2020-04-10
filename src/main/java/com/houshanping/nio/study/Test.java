@@ -1,4 +1,4 @@
-package main.java.com.houshanping.nio.study;
+package com.houshanping.nio.study;
 
 /**
  * @Author: houshanping

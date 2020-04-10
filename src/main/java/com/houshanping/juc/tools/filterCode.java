@@ -1,4 +1,4 @@
-package main.java.com.houshanping.juc.tools;
+package com.houshanping.juc.tools;
 
 import java.io.BufferedReader;
 import java.io.File;

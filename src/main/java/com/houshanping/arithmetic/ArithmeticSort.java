@@ -1,4 +1,4 @@
-package main.java.com.houshanping.arithmetic;
+package com.houshanping.arithmetic;
 
 import java.util.Arrays;
 import java.util.Random;

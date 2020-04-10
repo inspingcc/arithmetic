@@ -1,4 +1,4 @@
-package main.java.com.houshanping.arithmetic.study;
+package com.houshanping.arithmetic.study;
 
 @FunctionalInterface
 public interface MyFunctionInterface {

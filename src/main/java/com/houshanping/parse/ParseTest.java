@@ -1,7 +1,4 @@
-package main.java.com.houshanping.parse;
-
-import org.parse4j.Parse;
-import org.parse4j.ParseObject;
+package com.houshanping.parse;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,18 +12,18 @@ public class ParseTest {
     public static List<Long> diffs = new ArrayList<>();
 
     public static void main(String[] args) throws Exception {
-        Parse.initialize("com.playstrap.clashofrome", "jsding@parse", "http://s3001.flamingogames-tech.cn:1337/parse/");
-
-        for (int i = 0; i < 10000; i++) {
-            ParseObject o = new ParseObject("ParseTest");
-            o.put("uid", "4649a623-6748-4b16-9883-491a8d0a1969");
-            o.put("sid", 9999);
-            o.put("updateObj", "{\"food\":10000,\"wood\":10000,\"iron\":10000,\"silver\":10000}");
-            o.put("updateTime", System.currentTimeMillis());
-            o.put("reason", "Test");
-            o.saveInBackground();
-            Thread.sleep(1000);
-        }
+//        Parse.initialize("com.playstrap.clashofrome", "jsding@parse", "http://s3001.flamingogames-tech.cn:1337/parse/");
+//
+//        for (int i = 0; i < 10000; i++) {
+//            ParseObject o = new ParseObject("ParseTest");
+//            o.put("uid", "4649a623-6748-4b16-9883-491a8d0a1969");
+//            o.put("sid", 9999);
+//            o.put("updateObj", "{\"food\":10000,\"wood\":10000,\"iron\":10000,\"silver\":10000}");
+//            o.put("updateTime", System.currentTimeMillis());
+//            o.put("reason", "Test");
+//            o.saveInBackground();
+//            Thread.sleep(1000);
+//        }
 
     }
 

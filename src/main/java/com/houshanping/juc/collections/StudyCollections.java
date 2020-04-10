@@ -1,4 +1,4 @@
-package main.java.com.houshanping.juc.collections;
+package com.houshanping.juc.collections;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.CopyOnWriteArraySet;
